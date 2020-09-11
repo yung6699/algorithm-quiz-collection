@@ -1,6 +1,6 @@
 /*
     그래프 구현하기
-    BFS, DFS 탐색 구현
+    DFS|BFS, DFS 탐색 구현
  */
 
 function Graph(){

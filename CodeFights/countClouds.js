@@ -1,5 +1,5 @@
-/* 
-    BFS, DFS 문제 => 큐, 스택으로 푸는 문제임
+/*
+    DFS|BFS, DFS 문제 => 큐, 스택으로 푸는 문제임
     https://app.codesignal.com/interview-practice/task/HdgqPhHqs3NciAHqH/solutions
 */
 
@@ -12,8 +12,8 @@ function countClouds(skyMap) {
                 cnt++;
             }
         }
-    }   
-    
+    }
+
     return cnt;
 }
 
@@ -26,9 +26,9 @@ function bfs(skyMap, tx, ty){
         let tmp = queue.shift();
         let x = tmp[0];
         let y = tmp[1];
-  
+
         skyMap[x][y] = 'x';
-        
+
         for(let i = 0; i < 4; i++){
             let nx = x + dx[i];
             let ny = y + dy[i];
@@ -36,8 +36,8 @@ function bfs(skyMap, tx, ty){
                 queue.unshift([nx, ny]);
             }
         }
-        
-    }    
+
+    }
 }
 
 let s = [['0', '1', '1', '0', '1'],

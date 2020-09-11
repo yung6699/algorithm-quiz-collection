@@ -1,5 +1,5 @@
 /* 
-  백준 알고리즘 1260번 DFS와 BFS
+  백준 알고리즘 1260번 DFS와 DFS|BFS
   https://www.acmicpc.net/problem/1260
 */
 

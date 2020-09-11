@@ -1,7 +1,7 @@
-/* 
+/*
   백준알고리즘 2637번 장난감 조립
     https://www.acmicpc.net/problem/2637
-  DFS, BFS 둘다 가능하다.
+  DFS, DFS|BFS 둘다 가능하다.
 */
 
 var fs = require('fs');

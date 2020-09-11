@@ -1,7 +1,7 @@
 /* 
   백준알고리즘 2638번 치즈
   https://www.acmicpc.net/problem/2638
-  DFS, BFS 둘다 가능하다.
+  DFS, DFS|BFS 둘다 가능하다.
 */
 
 var fs = require('fs');
